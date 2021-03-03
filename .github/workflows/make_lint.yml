@@ -16,3 +16,5 @@ jobs:
 
       - name: Run make lint
         run: make lint
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
