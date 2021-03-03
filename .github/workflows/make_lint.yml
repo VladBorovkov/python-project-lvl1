@@ -1,0 +1,18 @@
+#------------------------
+# Vlad Borovkov
+#------------------------
+name: Make-lint
+
+on: [push]
+
+jobs:
+
+  make_lint:
+    
+    runs-on: ubuntu-latest
+
+    
+    steps:
+
+      - name: Run make lint
+        run: make lint
