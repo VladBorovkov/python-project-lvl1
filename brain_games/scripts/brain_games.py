@@ -1,11 +1,6 @@
 #!/usr/bin/env python
 
-import prompt
-
-
-def welcome_user():
-    name = prompt.string('May I have your name? ')
-    print('Hello, ' + name + '!')
+from brain_games.cli import welcome_user
 
 
 def brain_games():
